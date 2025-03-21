@@ -15,7 +15,7 @@ export default function CardViaggi({ viaggio }) {
                     <ul className="list-group list-group-flush">
                         <li className="list-group-item">Inizio Viaggio: {dataInizio}</li>
                         <li className="list-group-item">Fine Viaggio: {dataFine}</li>
-                        <Link to={`/viaggio/${id}`} className="list-group-item">Partecipanti</Link>
+                        <li className="list-group-item "><Link to={`/viaggio/${id}`} >Partecipanti</Link></li>
                     </ul>
                 </div>
             </div>
